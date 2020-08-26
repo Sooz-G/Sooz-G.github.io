@@ -5,8 +5,13 @@ body {
 }
 
 body > header {
+    position: sticky;
+    top: 0;
     background-color: #0b0c10;
-    padding: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #66fcf1;
@@ -47,9 +52,11 @@ body > main > a {
 }
 
 #Catchy-Opening {
+    color: whitesmoke;
     font-size: 80px;
     font-weight: 700;
 }
+
 
 body > main > p {
     max-width: 40%;
@@ -67,6 +74,7 @@ body > main > p {
     text-align: center;
 }
 
+
 #testimonial-container {
     display: flex;
 }
@@ -80,7 +88,7 @@ body > main > p {
 body > footer {
     background-color: #45a29e;
     color: white;
-    padding: 32px;
+    padding: 25px;
 }
 
 #footer-container {
